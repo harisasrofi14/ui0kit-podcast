@@ -402,29 +402,18 @@
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X3g-Jg-Gv6">
-                                <rect key="frame" x="96.333333333333329" y="784" width="200.33333333333337" height="28"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYZ-NZ-g0S">
-                                        <rect key="frame" x="0.0" y="0.0" width="155.33333333333334" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxX-FJ-eFo">
-                                        <rect key="frame" x="155.33333333333331" y="0.0" width="45" height="28"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                        <color key="tintColor" red="0.79607843140000001" green="0.98431372549999996" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Sign In">
-                                            <color key="titleColor" red="0.79607843140000001" green="0.98431372549999996" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                    </button>
-                                </subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGe-uF-e1X">
+                                <rect key="frame" x="169.66666666666666" y="453.66666666666669" width="54" height="46"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="vxX-FJ-eFo" firstAttribute="leading" secondItem="QYZ-NZ-g0S" secondAttribute="trailing" constant="2" id="7hi-Ua-gyP"/>
+                                    <constraint firstAttribute="height" constant="46" id="5MF-KI-Rrr"/>
                                 </constraints>
-                            </stackView>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XqG-tV-92F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -434,16 +423,16 @@
                             <constraint firstItem="LY5-0b-tvL" firstAttribute="trailing" secondItem="nM8-my-PC3" secondAttribute="trailing" id="AWy-vP-LAv"/>
                             <constraint firstItem="2Ud-B8-cho" firstAttribute="leading" secondItem="XqG-tV-92F" secondAttribute="leading" constant="40" id="IGb-EI-sdU"/>
                             <constraint firstItem="A16-8G-fSH" firstAttribute="leading" secondItem="QEp-g4-8gb" secondAttribute="leading" id="M21-Aj-QE5"/>
+                            <constraint firstItem="SGe-uF-e1X" firstAttribute="centerX" secondItem="nM8-my-PC3" secondAttribute="centerX" id="O9W-wk-czo"/>
                             <constraint firstItem="QEp-g4-8gb" firstAttribute="top" secondItem="0xi-gY-cAi" secondAttribute="bottom" constant="20" id="P7X-WH-TVy"/>
-                            <constraint firstItem="XqG-tV-92F" firstAttribute="bottom" secondItem="X3g-Jg-Gv6" secondAttribute="bottom" constant="6" id="QS9-6R-BEp"/>
                             <constraint firstItem="QEp-g4-8gb" firstAttribute="leading" secondItem="0xi-gY-cAi" secondAttribute="leading" id="Qp1-4E-Eio"/>
                             <constraint firstItem="0xi-gY-cAi" firstAttribute="top" secondItem="2Ud-B8-cho" secondAttribute="bottom" constant="20" id="RZU-Ua-lGi"/>
                             <constraint firstItem="0xi-gY-cAi" firstAttribute="trailing" secondItem="2Ud-B8-cho" secondAttribute="trailing" id="Rpc-3e-pB5"/>
                             <constraint firstItem="2Ud-B8-cho" firstAttribute="top" secondItem="bfz-tC-kqP" secondAttribute="bottom" constant="70" id="Uc6-1z-IST"/>
                             <constraint firstItem="A16-8G-fSH" firstAttribute="top" secondItem="QEp-g4-8gb" secondAttribute="bottom" constant="40" id="bdR-Zi-gGO"/>
                             <constraint firstAttribute="bottom" secondItem="LY5-0b-tvL" secondAttribute="bottom" id="h6B-0y-S32"/>
-                            <constraint firstItem="X3g-Jg-Gv6" firstAttribute="centerX" secondItem="nM8-my-PC3" secondAttribute="centerX" id="jEx-Ui-66L"/>
                             <constraint firstItem="bfz-tC-kqP" firstAttribute="leading" secondItem="XqG-tV-92F" secondAttribute="leading" constant="40" id="kiQ-Tk-zyh"/>
+                            <constraint firstItem="SGe-uF-e1X" firstAttribute="top" secondItem="A16-8G-fSH" secondAttribute="bottom" constant="16" id="mr5-9n-cEv"/>
                             <constraint firstItem="A16-8G-fSH" firstAttribute="trailing" secondItem="QEp-g4-8gb" secondAttribute="trailing" id="n7K-vG-KvD"/>
                             <constraint firstItem="XqG-tV-92F" firstAttribute="trailing" secondItem="2Ud-B8-cho" secondAttribute="trailing" constant="40" id="pHS-oH-2MV"/>
                             <constraint firstItem="LY5-0b-tvL" firstAttribute="top" secondItem="nM8-my-PC3" secondAttribute="top" id="pXr-7e-gg7"/>
